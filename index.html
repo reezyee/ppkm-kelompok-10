@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelompok 10 PPKM - Informatika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Birthstone&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', "sans-serif"],
+              bs: ['"Birthstone", cursive'],
+            },
+            keyframes: {
+              floatSlow: {
+                "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+                "50%": { transform: "translateY(-15px) rotate(3deg)" },
+              },
+              floatReverse: {
+                "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+                "50%": { transform: "translateY(18px) rotate(-4deg)" },
+              },
+            },
+            animation: {
+              "float-1": "floatSlow 6s ease-in-out infinite",
+              "float-2": "floatReverse 8s ease-in-out infinite",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="overflow-x-hidden bg-[#0b0f19] text-[#f3f4f6] [scrollbar-width:none]"
+  >
+    <div
+      class="fixed inset-0 -z-10 bg-[#0b0f19]"
+      style="
+        background-image: url(&quot;data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E&quot;);
+      "
+    >
+      <div
+        class="absolute w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-[140px] pointer-events-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+      ></div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section
+      class="hero-section relative h-screen w-full flex flex-col items-center justify-center overflow-hidden"
+    >
+      <div
+        class="hero-wrapper origin-[55%_33%] absolute inset-0 flex flex-col items-center justify-center pointer-events-none"
+      >
+        <div
+          class="absolute top-[20%] left-[10%] sm:left-[10%] animate-float-1 bg-blue-900/20 border border-blue-500/10 backdrop-blur-md px-4 py-2 rounded-sm text-xs font-mono tracking-widest text-blue-500/90 shadow-lg shadow-blue-900/10"
+        >
+          // SYS.INIT_2026
+        </div>
+        <div
+          class="absolute top-[20%] right-[15%] sm:right-[15%] animate-float-2 text-[16px] font-mono text-blue-500/90 tracking-widest uppercase"
+        >
+          <img src="./assets/LogoHMIF.jpg" alt="Logo HMIF" class="w-10" />
+        </div>
+        <div
+          class="absolute bottom-[20%] left-[18%] sm:left-[26%] animate-float-2 text-[12px] font-mono text-gray-400 tracking-wider"
+        >
+          Satu Ideologi, Satu Solidaritas
+        </div>
+        <div
+          class="absolute bottom-[25%] lg:bottom-[18%] right-[18%] sm:right-[26%] animate-float-1 bg-slate-900/50 border border-slate-700/40 backdrop-blur-md px-3.5 py-1.5 rounded-xl text-[11px] font-mono text-gray-400 flex items-center gap-2"
+        >
+          <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+          [STATUS: ACTIVE_COLLAB]
+        </div>
+      </div>
+
+      <div
+        class="hero-wrapper origin-[55%_33%] flex flex-col items-center justify-center relative z-10"
+      >
+        <div
+          class="hero-title flex flex-col justify-center items-center text-center"
+        >
+          <h1
+            class="title text-5xl font-extrabold sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl overflow-hidden selection:bg-transparent selection:text-white"
+          >
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-b from-blue-600/90 to-blue-600/10 inline-block pb-5"
+            >
+              Kelom<span id="portal-target" class="inline-block">p</span>ok 10
+            </span>
+          </h1>
+          <span
+            class="subtitle [clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] translate-y-[-50px] text-3xl sm:text-4xl font-bs md:text-5xl lg:text-6xl xl:text-7xl mt-4 text-gray-300 selection:bg-transparent selection:text-blue-800"
+            >PPKM - Informatika</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERS SECTION -->
+    <section
+      class="members-section relative h-screen w-full flex flex-col items-center justify-start z-20 bg-transparent overflow-hidden pt-16 px-4"
+    >
+      <div class="pinned-header text-center z-30 mb-8">
+        <span
+          class="text-blue-200/50 font-mono text-xs tracking-widest uppercase bg-blue-500/10 border border-blue-500/30 px-3.5 py-1.5 rounded-full shadow-lg shadow-blue-500/10"
+        >
+          // THE CONTENDERS
+        </span>
+        <h2
+          class="text-3xl md:text-4xl font-extrabold mt-3 tracking-tight text-white"
+        >
+          Daftar Anggota Kelompok 10
+        </h2>
+      </div>
+
+      <div
+        id="card-stack"
+        class="relative w-full max-w-[380px] h-[480px] flex items-center justify-center"
+      >
+        <!-- Kartu di-generate otomatis oleh members.js dari dummy data -->
+      </div>
+    </section>
+    <!-- SECTION SETELAHNYA -->
+    <section
+      class="next-section relative h-screen w-full flex flex-col items-center justify-center z-20 border-t border-gray-800/60 bg-transparent"
+    >
+      <h2 class="text-4xl font-bold">Project Showcase</h2>
+    </section>
+
+    <script src="members.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
