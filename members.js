@@ -1,103 +1,190 @@
 const membersData = [
   {
+    name: "Muhammad Ziya Ulhaq",
+    role: "Ketua",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo: "assets/members/ziya.jpeg",
+    npm: "267006111196",
+    hobi: "Basket",
+    alamat: "Garut",
+    instagram: "@ziyaaulll_",
+    linkIG: "https://instagram.com/ziyaaulll_",
+    accent: "blue",
+  },
+  {
+    name: "Fathir Putra Sampurna",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo: "assets/members/fathir.jpeg",
+    npm: "267006111070",
+    hobi: "Mendengarkan Musik",
+    alamat: "Purwakarta",
+    instagram: "@fathirsams",
+    linkIG: "https://instagram.com/fathirsams",
+    accent: "blue",
+  },
+  {
+    name: "Khoirul Rizki Maulidan",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo:"assets/members/khoirul.jpeg",
+    npm: "267006111140",
+    hobi: "Membaca Buku",
+    alamat: "Tasikmalaya",
+    instagram: "@rikuasakura35",
+    linkIG: "https://instagram.com/rikuasakura35",
+    accent: "blue",
+  },
+  {
+    name: "Galang Naelul Gifar",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo:"assets/members/galang.jpeg",
+    npm: "267006111069",
+    hobi: "Mendengarkan Musik",
+    alamat: "Majalengka",
+    instagram: "@norasviel",
+    linkIG: "https://instagram.com/norasviel",
+    accent: "blue",
+  },
+  {
+    name: "Yara Rahma Nathania",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo:"assets/members/yara.jpeg",
+    npm: "267006111189",
+    hobi: "Mendengarkan Musik",
+    alamat: "Ciamis",
+    instagram: "@yy.raa_",
+    linkIG: "https://instagram.com/yy.raa_",
+    accent: "pink",
+  },
+  {
     name: "Reza Sapitra",
-    role: "Lead Developer",
-    university: "UNSIL",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
     batch: "Informatika '26",
-    photo:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=800",
-    npm: "2470060xx",
-    gpa: "3.86",
-    gpaScale: "4.00",
+    photo:"assets/members/reza.jpeg",
+    npm: "267006111110",
+    hobi: "Mendengarkan Musik",
+    alamat: "Tasikmalaya",
+    instagram: "@reezyee",
+    linkIG: "https://instagram.com/reezyee",
     accent: "blue",
-    achievements: [
-      { icon: "🥇", title: "1st Place", desc: "Hackathon Nasional Informatika Cup 2024" },
-      { icon: "🏅", title: "Finalist", desc: "Gemastik - Divisi Pengembangan Aplikasi 2023" },
-    ],
   },
   {
-    name: "Anggota Dua",
-    role: "UI/UX Designer",
-    university: "UNSIL",
+    name: "Farhan Hidayatullah",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
     batch: "Informatika '26",
-    photo:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
-    npm: "2470060xx",
-    gpa: "3.72",
-    gpaScale: "4.00",
+    photo:"assets/members/farhan.jpeg",
+    npm: "267006111035",
+    hobi: "Berenang",
+    alamat: "Tasikmalaya",
+    instagram: "@huruhara.io",
+    linkIG: "https://instagram.com/huruhara.io",
     accent: "blue",
-    achievements: [
-      { icon: "🥈", title: "2nd Place", desc: "UI/UX Design Competition Jawa Barat 2024" },
-      { icon: "🎖️", title: "Best Design", desc: "Internal Showcase Prodi Informatika 2023" },
-    ],
   },
   {
-    name: "Anggota Tiga",
-    role: "Backend Support",
-    university: "UNSIL",
+    name: "Fayza Maheswara H. M.",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
     batch: "Informatika '26",
-    photo:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800",
-    npm: "2470060xx",
-    gpa: "3.65",
-    gpaScale: "4.00",
-    accent: "indigo",
-    achievements: [
-      { icon: "🥉", title: "3rd Place", desc: "Capture The Flag Regional Priangan 2024" },
-      { icon: "🏆", title: "Top 10", desc: "Kompetisi Basis Data Nasional 2023" },
-    ],
+    photo:"assets/members/fayza.jpeg",
+    npm: "267006111073",
+    hobi: "Basket & Kulineran",
+    alamat: "Majalengka",
+    instagram: "@fyzmhrr",
+    linkIG: "https://instagram.com/fyzmhrr",
+    accent: "blue",
+  },
+  {
+    name: "Fauzan Muslim",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo:"assets/members/fauzan.jpeg",
+    npm: "267006111137",
+    hobi: "Bermain Game",
+    alamat: "Tasikmalaya",
+    instagram: "@fznnn06",
+    linkIG: "https://instagram.com/fznnn06",
+    accent: "blue",
+  },
+  {
+    name: "Alya Fazilatun Nisa",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo:"assets/members/alya.jpeg",
+    npm: "267006111133",
+    hobi: "Mendengarkan Musik",
+    alamat: "Kuningan",
+    instagram: "@alyfzltnn",
+    linkIG: "https://instagram.com/alyfzltnn",
+    accent: "pink",
+  },
+  {
+    name: "Syifa Shofariyah",
+    role: "Anggota",
+    university: "Universitas Siliwangi",
+    batch: "Informatika '26",
+    photo:"assets/members/syifa.jpeg",
+    npm: "267006111049",
+    hobi: "Game & Musik",
+    alamat: "Tasikmalaya",
+    instagram: "@afiys_oo",
+    linkIG: "https://instagram.com/afiys_oo",
+    accent: "pink",
   },
 ];
 
-// Preset warna aksen per kartu
+// Preset warna aksen yang konsisten dengan desain mentor
 const ACCENT = {
   blue: {
-    border: "border-blue-500/30",
-    shadow: "shadow-blue-950/50",
-    gradFrom: "from-blue-950",
-    text: "text-blue-400",
-    textLight: "text-blue-300",
-    cardBorder: "border-blue-500/40",
-    corner: "border-blue-400",
+    border: "border-slate-500/30",
+    bg: "bg-blue-900",
+    shadow: "shadow-black/50",
+    gradFrom: "from-slate-950",
+    text: "text-slate-300",
+    cardBorder: "border-slate-500/40",
   },
-  indigo: {
-    border: "border-indigo-500/30",
-    shadow: "shadow-indigo-950/50",
-    gradFrom: "from-indigo-950",
-    text: "text-indigo-400",
-    textLight: "text-indigo-300",
-    cardBorder: "border-indigo-500/40",
-    corner: "border-indigo-400",
+  pink: {
+    border: "border-slate-500/30",
+    bg: "bg-pink-900",
+    shadow: "shadow-black/50",
+    gradFrom: "from-slate-950",
+    text: "text-slate-300",
+    cardBorder: "border-slate-500/40",
   },
 };
 
-// Rotasi + offset tumpukan kartu, sesuai posisi (0 = paling atas)
+// Rotasi + offset tumpukan kartu
 const STACK_TRANSFORM = [
   "rotate-1 translate-y-0",
   "-rotate-2 translate-y-2",
+  "rotate-2 translate-y-3",
+  "-rotate-1 translate-y-1",
   "rotate-3 translate-y-4",
 ];
 
-function renderAchievement(a) {
-  return `
-    <div class="flex items-start gap-1.5 text-[10.5px] leading-[1.35] text-gray-300">
-      <span class="shrink-0 leading-[1.35]">${a.icon}</span>
-      <span><b class="text-gray-100 font-bold">${a.title}</b> — ${a.desc}</span>
-    </div>`;
-}
-
 function renderCard(member, index) {
   const c = ACCENT[member.accent] || ACCENT.blue;
-  const stackClass = STACK_TRANSFORM[index] || STACK_TRANSFORM[STACK_TRANSFORM.length - 1];
+  const stackClass = STACK_TRANSFORM[index % STACK_TRANSFORM.length];
   const cardNumberClass = `card-${index + 1}`;
 
   return `
-  <div class="${cardNumberClass} origin-bottom absolute inset-0 w-full h-full rounded-3xl overflow-hidden bg-gradient-to-b ${c.gradFrom} via-slate-950 to-slate-900 border ${c.border} shadow-2xl ${c.shadow} flex flex-col justify-between p-5 ${stackClass}">
+  <div class="${cardNumberClass} origin-bottom absolute inset-0 w-full h-full rounded-3xl overflow-hidden bg-gradient-to-b ${c.gradFrom} via-slate-950 to-slate-900 border ${c.border} shadow-2xl ${c.shadow} flex flex-col justify-between p-6 ${stackClass}">
 
-    <!-- Top bar: brand kiri, season/batch kanan -->
+    <!-- Top bar -->
     <div class="flex justify-between items-start z-20">
       <span class="font-extrabold text-[13px] tracking-[0.02em] text-white">Kelompok 10</span>
-      <span class="text-right text-[10px] font-extrabold tracking-[0.08em] leading-[1.15] uppercase ${c.textLight}">PPKM<br />INFORMATIKA</span>
+      <span class="text-right text-[10px] font-extrabold tracking-[0.08em] ${c.bg} leading-[1.15] uppercase text-slate-200 py-0.5 px-1 rounded-sm">PPKM INFORMATIKA</span>
     </div>
 
     <!-- Foto full-bleed -->
@@ -107,34 +194,38 @@ function renderCard(member, index) {
     </div>
 
     <!-- Nama cursive di atas foto -->
-    <div class="absolute bottom-[172px] left-5 right-5 z-20">
+    <div class="absolute bottom-[135px] left-6 right-6 z-20">
       <h3 class="font-bs text-white text-5xl leading-none drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)]">${member.name}</h3>
     </div>
 
-    <!-- Panel bawah: universitas/role + statistik -->
+    <!-- Panel bawah disamakan layout dan ukurannya dengan mentor -->
     <div class="relative z-20 space-y-2.5">
       <div class="flex items-center gap-2 px-0.5">
-        <span class="font-extrabold text-[13px] tracking-[0.02em] ${c.text}">${member.university}</span>
+        <span class="font-extrabold text-[13px] tracking-[0.02em] text-white-400">${member.university}</span>
         <span class="text-gray-600 text-xs">|</span>
         <span class="text-[10.5px] font-semibold uppercase tracking-[0.06em] text-gray-300">${member.role}</span>
       </div>
 
-      <div class="bg-slate-900/80 backdrop-blur-md border ${c.cardBorder} rounded-2xl p-3.5 shadow-xl relative">
-        <div class="absolute -top-1 -left-1 w-2.5 h-2.5 border-t-2 border-l-2 ${c.corner}"></div>
-        <div class="absolute -top-1 -right-1 w-2.5 h-2.5 border-t-2 border-r-2 ${c.corner}"></div>
-        <div class="absolute -bottom-1 -left-1 w-2.5 h-2.5 border-b-2 border-l-2 ${c.corner}"></div>
-        <div class="absolute -bottom-1 -right-1 w-2.5 h-2.5 border-b-2 border-r-2 ${c.corner}"></div>
-
-        <div class="grid grid-cols-[1fr_1.5fr] gap-2.5 items-start">
-          <div class="border-r border-slate-800 pr-2.5">
-            <span class="text-[9px] uppercase tracking-[0.1em] text-gray-400 block">GPA</span>
-            <div class="text-[1.9rem] font-extrabold leading-[1.1] ${c.text}">
-              ${member.gpa}<span class="text-[11px] font-medium text-gray-400">/${member.gpaScale}</span>
-            </div>
-            <span class="text-[9px] font-mono text-gray-500 block mt-1">NPM ${member.npm}</span>
+      <div class="bg-black/80 backdrop-blur-md border ${c.cardBorder} rounded-2xl p-3 shadow-xl relative">
+        <div class="grid grid-cols-3 gap-1 items-start text-xs">
+          <div>
+            <span class="text-[8px] uppercase tracking-[0.1em] text-gray-400 block">NPM</span>
+            <span class="font-mono text-gray-200 text-[10.5px] block">${member.npm}</span>
           </div>
-          <div class="space-y-1.5">
-            ${member.achievements.map(renderAchievement).join("")}
+          <div>
+            <span class="text-[8px] uppercase tracking-[0.1em] text-gray-400 block">ASAL</span>
+            <span class="text-gray-200 text-[10.5px] block">${member.alamat}</span>
+          </div>
+          <div>
+            <span class="text-[8px] uppercase tracking-[0.1em] text-gray-400 block">HOBI</span>
+            <span class="text-gray-200 text-[10.5px] leading-tight block">${member.hobi}</span>
+          </div>
+          
+          <div class="col-span-3 pt-2 mt-1 border-t border-slate-800/80 flex items-center justify-between">
+            <span class="text-[8px] uppercase tracking-[0.1em] text-gray-400">INSTAGRAM</span>
+            <a href="${member.linkIG}" target="_blank">
+              <span class="font-mono font-medium text-blue-400 text-xs hover:underline">${member.instagram}</span>
+            </a>
           </div>
         </div>
       </div>

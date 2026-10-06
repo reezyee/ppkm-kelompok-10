@@ -1,0 +1,18 @@
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  background: transparent;
+}
+
+html,
+body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow-x: hidden;
+}
+
+.title,
+.subtitle {
+  visibility: hidden;
+}
